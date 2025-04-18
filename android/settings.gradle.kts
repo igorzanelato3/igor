@@ -15,6 +15,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AjuD"
+rootProject.name = "service_app_go_fix"
 include(":app")
 project(":app").projectDir = file("app")
