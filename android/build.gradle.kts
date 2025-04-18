@@ -1,3 +1,10 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+    id("dev.flutter.flutter-gradle-plugin") version "1.0.0"
+    id("com.google.gms.google-services")
+}
+
 buildscript {
     repositories {
         google()
